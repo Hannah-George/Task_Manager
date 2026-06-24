@@ -4,7 +4,7 @@ const taskList     = document.getElementById('taskList');
 const progressFill = document.getElementById('progressFill');
 const progressLabel= document.getElementById('progressLabel');
 
-let tasks = [];
+let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 function updateProgress() {
     const total = tasks.length;
@@ -14,6 +14,7 @@ function updateProgress() {
 }
 
 function renderList() {
+    localStorage.setItem('tasks', JSON.stringify(tasks));
     taskList.innerHTML = '';
 
     if (tasks.length === 0) {
