@@ -9,7 +9,7 @@ A simple task manager built with HTML, CSS, and JavaScript.
 - Tasks saved in browser (localStorage)
 
 ## Live Demo
-[https://hannah-george.github.io/repository-name](https://hannah-george.github.io/Task_Manager/)
+[https://hannah-george.github.io/Task_Manager/](https://hannah-george.github.io/Task_Manager/)
 
 ## Tech Used
 - HTML
