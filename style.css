@@ -251,6 +251,10 @@ li.done .complete-btn { display: none; }
 }
 .delete-btn:hover { background: rgba(180,100,100,0.16); }
 
+@media (max-width: 1024px) {
+    .btn-group { opacity: 1; }
+}
+
 /* Shake */
 @keyframes shake {
     0%,100% { transform: translateX(0); }
